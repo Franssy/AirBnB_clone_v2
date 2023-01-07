@@ -18,4 +18,5 @@ def do_pack():
     if os.path.exists("./versions/web_static_{}.tgz".format(opt)):
         return os.path.normpath("/versions/web_static_{}.tgz".format(opt))
     else:
+        
         return None
