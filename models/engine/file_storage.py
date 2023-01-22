@@ -5,7 +5,6 @@ module containing FileStorage used for file storage
 import json
 import models
 
-
 class FileStorage:
     """
     serializes and deserializes instances to and from JSON file
