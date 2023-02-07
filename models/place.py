@@ -63,5 +63,6 @@ class Place(BaseModel, Base):
         """Setter attribute that handles append method for adding an Amenity.id
         to the attribute amenity_ids.
         """
+        
         if isinstance(obj, 'Amenity'):
             self.amenity_id.append(obj.id)
